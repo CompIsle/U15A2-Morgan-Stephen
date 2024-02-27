@@ -1,0 +1,322 @@
+body {
+  background-color: #fff; /* White background */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.landing {
+  margin-bottom: 0px;
+  border-radius: 5px; /* Optional rounded corners */
+  color: #333; /* Text color inside the boxes */
+  text-align: center;
+}
+
+.landing h1 {
+  margin-top: 40px;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1300px;
+}
+
+header {
+  color: #fff;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+.sticky-nav { 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  z-index:100;
+  background-color: #222;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  padding-right: 20px;
+  margin: 0;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#btt {
+  color: #0011ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ddd;
+}
+
+#about-us {
+  background-color: #676767;
+  color: #eee;
+  padding: 50px;
+  text-align: justify;
+}
+
+
+#about-us p, #interested-apply p, #looking-for p, #qualifications p, #qualifications ul {
+  width: 80%; 
+  margin: 0 auto; /* Center the paragraph horizontally within the section */
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+#interested-apply {
+  background-color: #676767;
+  color: #eee;
+  width: 70%;
+  padding: 50px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#interested-apply h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#interested-apply a {
+  margin: 0 auto; /* center horizontally*/
+  display: block;
+}
+
+#hero-section {
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 40px;
+}
+
+#background-image {
+background-size: cover; /* Scales the image to cover the container while preserving aspect ratio */
+background-repeat: no-repeat; /* Prevents repeating the image */
+min-height: 40vh; /* Ensures the image expands vertically to fill the viewport at least */
+width: 100%;
+z-index: 1;
+}
+
+.button {
+  background-color: #222;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 20px;
+}
+
+#key-features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 50px;
+}
+
+.feature {
+  text-align: center;
+}
+
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.team-members li, .about-us-headlines li, .courses-list li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+
+.team-members li img, .about-us-headlines li img, .courses-list li img {
+  width: 200px;
+  height: 200px;
+  margin-right: 50px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.courses-list li img {
+  border-radius: 100px;
+}
+
+#courses h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.course-info {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.course-info a {
+max-width: 100px;
+}
+
+.course-info p, .course-info h3{
+padding-left: 20px;
+max-width: 800px;
+}
+
+.team-members-info h3, .about-info h3, .course-info h3 {
+  font-size: 25px;
+}
+
+.team-members-info p {
+max-width: 90%;
+}
+#team1, #team2, #team3, #team4, #team5 {
+  background-color: #cccccc;
+  border-radius: 30px;
+  margin-right: 40px;
+}
+.section-box {
+  background-color: #f2f2f2; /* Light grey background */
+  padding: 20px;
+  margin-bottom: 0px;
+  border-radius: 5px; /* Optional rounded corners */
+  color: #333; /* Text color inside the boxes */
+  text-align: center;
+}
+
+.section-box2 {
+  background-color: #f2f2f2; /* Light grey background */
+  padding: 20px;
+  margin-bottom: 0px;
+  border-radius: 5px; /* Optional rounded corners */
+  color: #333; /* Text color inside the boxes */
+  text-align: left;
+}
+
+.section-box h2 {
+  margin-bottom: 10px; 
+  text-align: center;
+}
+
+.section-box p {
+  text-align: center;
+}
+
+.circular-image {
+  width: 200px;
+  height: 200px; /* Equal width and height for a circle */
+  border-radius: 50%;
+  object-fit: cover; /* Make image fill the circle */
+}
+
+
+footer {
+  background-color: #222;
+  color: #eee;
+  padding: 20px 0;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.ftr {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-right: 100px;
+}
+
+.ftr li {
+  margin-bottom: 10px; /* Add space between links */
+}
+
+.ftr a {
+  text-decoration: none;
+  color: inherit; /* Inherit color from parent */
+  font-size: 0.9em;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* Add space between copyright text and logo */
+}
+
+.copyright img {
+  width: 30px;
+  height: 30px;
+}
+
+.button2 {
+  size: 40px;
+  background-color: #000be1;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+#work-with-us h2 {
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+#looking-for h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+
+#qualifications {
+  background-color: #bdbdbd; /* Light grey background */
+  padding: 20px;
+  margin-bottom: 0px;
+  border-radius: 5px; /* Optional rounded corners */
+  color: #333; /* Text color inside the boxes */
+  text-align: center;
+}
+
+.quals-list li {
+    list-style-position: inside;
+    text-align: left;
+}

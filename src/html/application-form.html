@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hot Beans Web</title>
+  <link rel="stylesheet" href="css/form-style.css">
+</head>
+<body>
+  <header>
+    <nav class="sticky-nav">
+      <a href="home.html" class="logo">Hot Beans</a>
+        <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="team.html">Our Team</a></li>
+            <li><a href="apply.html">Apply</a></li>
+        </ul>
+    </nav>
+  </header>
+  <a id="top"></a>
+  <main>
+    <div class="container">
+
+        <h1>Join the Hot Beans Team</h1>
+        <p>We're looking for passionate individuals to join our vibrant community!</p>
+      
+        <form action="form-submission.php" method="post" enctype="multipart/form-data"> <label for="name">Full Name:</label>
+          <input type="text" id="name" name="name" required>
+      
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" required>
+      
+          <label for="phone">Phone Number (Optional):</label>
+          <input type="tel" id="phone" name="phone">
+      
+          <label for="position">Job Position:</label>
+          <select id="position" name="position" required>
+            <option value="">Select a position</option>
+            <option value="front-end-developer">Front-End Developer</option>
+            <option value="back-end-developer">Back-End Developer</option>
+            <option value="full-stack-developer">Full-Stack Developer</option>
+            <option value="ui-ux-designer">UI/UX Designer</option>
+          </select>
+      
+          <label for="cv">Upload CV (PDF only):</label>
+          <input type="file" id="cv" name="cv" accept=".pdf" required>
+      
+          <button type="submit">Submit Application</button>
+        </form>
+
+      <a href="#top" id="btt">Back to top</a>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <nav class="ftr">
+        <ul>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Apply</a></li>
+          <li><a href="#">Qualifications</a></li>
+        </ul>
+      </nav>
+      <div class="copyright">
+        &copy; 2024 Hot Beans Web
+        <img src="https://theceoviews.com/wp-content/uploads/2023/08/Cloud-Computing-for-Small-Businesses.jpg" alt="Company Logo" width="30px" height="30px">
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
+
