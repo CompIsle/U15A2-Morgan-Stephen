@@ -1,0 +1,27 @@
+/* Hero section styles */
+#hero-section {
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 40px;
+  }
+  
+  #background-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 40vh;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  /* Key features styles */
+  #key-features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 50px;
+  }
+  
+  .feature {
+    text-align: center;
+  }
+  

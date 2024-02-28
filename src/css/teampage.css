@@ -1,0 +1,27 @@
+/* Team members styles */
+.team-members,
+.about-us-headlines,
+.courses-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+.team-members li,
+.about-us-headlines li,
+.courses-list li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.team-members li img,
+.about-us-headlines li img,
+.courses-list li img {
+  width: 200px;
+  height: 200px;
+  margin: 0 20px;
+  border-radius: 100px;
+}
