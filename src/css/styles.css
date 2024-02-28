@@ -1,54 +1,80 @@
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #fff;
-    font-family: Arial, sans-serif;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.landing {
+  margin-bottom: 0px;
+  border-radius: 5px; 
+  color: #333; 
+  text-align: center;
+}
+
+.landing h1 {
+  margin-top: 40px;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1300px;
+}
+
+header {
+  color: #fff;
+  padding: 20px;
+}
+
+/*image formatting */
+.circular-image {
+  width: 200px;
+  height: 200px; 
+  border-radius: 50%;
+  object-fit: cover; 
+}
+
+#background-image {
+  background-size: cover; 
+  background-repeat: no-repeat;
+  min-height: 40vh; 
+  width: 100%;
+  z-index: 1;
   }
   
-  .container {
-    max-width: 1300px;
-    margin: 0 auto;
-  }
-  
-  header {
-    color: #fff;
-    padding: 20px;
-    background-color: #222;
-  }
-  
-  .logo {
-    font-size: 24px;
-    font-weight: bold;
-    text-decoration: none;
-    padding-left: 20px;
-  }
-  
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  padding-left: 20px;
+}
+
 /* Navigation bar */
-  .sticky-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 60px;
-    z-index: 100;
-  }
-  
-  nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .nav-links {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .nav-links li {
-    display: inline-block;
-    margin-right: 20px;
-  }
+.sticky-nav { 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  z-index:100;
+  background-color: #222;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  padding-right: 20px;
+  margin: 0;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-right: 20px;
+}
   
   /* Buttons */
   a {
@@ -60,6 +86,32 @@ body {
     color: #ddd;
   }
   
+  .button {
+    background-color: #222;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 20px;
+  }
+
+  .button2 {
+    size: 40px;
+    background-color: #000be1;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   /* Text Styles */
   h1, h2, h3 {
     margin-bottom: 20px;
@@ -119,15 +171,57 @@ body {
   
   /* Shared elements across pages */
 
-  .section-box,
-  #about-us,
-  #interested-apply,
-  #qualifications,
-  #team1, #team2, #team3, #team4, #team5 {
-    background-color: #f2f2f2;
+  .section-box {
+    background-color: #f2f2f2; 
     padding: 20px;
-    border-radius: 5px;
-    color: #333;
+    margin-bottom: 0px;
+    border-radius: 5px; 
+    color: #333; 
+    text-align: center;
+  }
+
+  .section-box2 {
+    background-color: #f2f2f2; 
+    padding: 20px;
+    margin-bottom: 0px;
+    border-radius: 5px; 
+    color: #333; 
+    text-align: left;
   }
   
+  .section-box h2 {
+    margin-bottom: 10px; 
+    text-align: center;
+  }
+  
+  .section-box p {
+    text-align: center;
+  }
+  
+  #about-us p, #interested-apply p, #looking-for p, #qualifications p, #qualifications ul {
+    width: 80%; 
+    margin: 0 auto;
+    padding-top: 20px;
+    margin-bottom: 20px;
+  }
 
+  .team-members li, .about-us-headlines li, .courses-list li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+  }
+
+  .team-members li img, .about-us-headlines li img, .courses-list li img {
+    width: 200px;
+    height: 200px;
+    margin-right: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .team-members-info h3, .about-info h3, .course-info h3 {
+    font-size: 25px;
+  }

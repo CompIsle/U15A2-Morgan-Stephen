@@ -25,3 +25,9 @@
     text-align: center;
   }
   
+  #about-us {
+    background-color: #676767;
+    color: #eee;
+    padding: 50px;
+    text-align: justify;
+  }
