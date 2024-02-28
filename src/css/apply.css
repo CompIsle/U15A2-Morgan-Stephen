@@ -1,4 +1,4 @@
-#qualifications {
+  #qualifications {
     background-color: #bdbdbd; 
     padding: 20px;
     margin-bottom: 0px;
@@ -6,47 +6,46 @@
     color: #333; 
     text-align: center;
   }
-  
-  .quals-list li {
-      list-style-position: inside;
-      text-align: left;
+
+.quals-list li {
+    list-style-position: inside;
+    text-align: left;
+}
+
+#work-with-us h2 {
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+#looking-for h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+#courses h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.courses-list li img {
+  border-radius: 100px;
+}
+
+.course-info p, .course-info h3{
+  padding-left: 20px;
+  max-width: 800px;
   }
 
-  #work-with-us h2 {
-    margin-bottom: 30px;
-    font-size: 30px;
-  }
-  
-  #looking-for h2 {
-    font-size: 30px;
-    margin-bottom: 30px;
+.course-info {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.course-info a {
+  max-width: 100px;
   }
 
-  #courses h2 {
-    text-align: center;
-    font-size: 30px;
+  .course-info h3 {
+    font-size: 25px;
   }
-
-  .courses-list li img {
-    border-radius: 100px;
-  }
-  
-  .course-info p, .course-info h3{
-    padding-left: 20px;
-    max-width: 800px;
-    }
-
-  #interested-apply a {
-    margin: 0 auto; 
-    display: block;
-  }
-
-  .course-info {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-  }
-
-  .course-info a {
-    max-width: 100px;
-    }
