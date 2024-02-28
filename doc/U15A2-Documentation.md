@@ -212,7 +212,7 @@ Overall, while the website succeeds in meeting the majority of the client requir
 - Test load speeds.
 - Unit test code- test CSS and HTML using w3 validators.
 
-#### Compatability
+#### Compatibility
 
 - Test browser compatibility (screenshots side by side of browsers).
 
