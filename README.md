@@ -15,5 +15,5 @@ The website can be accessed using this link: [(hotbeans-web)](https://hotbeans-w
 * [html/](.\src\html)
   * [application-form.html](.\src\html\application-form.html)
   * [apply.html](.\src\html\apply.html)
-  * [home.html](.\src\html\home.html)
+  * [index.html](.\src\html\index.html)
   * [team.html](.\src\html\team.html)
