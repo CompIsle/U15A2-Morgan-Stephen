@@ -2,7 +2,7 @@
 /* Unoptimised CSS */
 
 body {
-  background-color: #fff;
+  background-color: #fff; 
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -86,7 +86,7 @@ a:hover {
 
 #about-us p, #interested-apply p, #looking-for p, #qualifications p, #qualifications ul {
   width: 80%; 
-  margin: 0 auto;
+  margin: 0 auto; /* Center the paragraph horizontally within the section */
   padding-top: 20px;
   margin-bottom: 20px;
 }
@@ -111,7 +111,7 @@ a:hover {
 }
 
 #interested-apply a {
-  margin: 0 auto; 
+  margin: 0 auto; /* center horizontally*/
   display: block;
 }
 
@@ -122,9 +122,9 @@ a:hover {
 }
 
 #background-image {
-background-size: cover; 
-background-repeat: no-repeat;
-min-height: 40vh; 
+background-size: cover; /* Scales the image to cover the container while preserving aspect ratio */
+background-repeat: no-repeat; /* Prevents repeating the image */
+min-height: 40vh; /* Ensures the image expands vertically to fill the viewport at least */
 width: 100%;
 z-index: 1;
 }
@@ -210,20 +210,20 @@ max-width: 90%;
   margin-right: 40px;
 }
 .section-box {
-  background-color: #f2f2f2; 
+  background-color: #f2f2f2; /* Light grey background */
   padding: 20px;
   margin-bottom: 0px;
   border-radius: 5px; 
-  color: #333; 
+  color: #333; /* Text color inside the boxes */
   text-align: center;
 }
 
 .section-box2 {
-  background-color: #f2f2f2; 
+  background-color: #f2f2f2; /* Light grey background */
   padding: 20px;
   margin-bottom: 0px;
   border-radius: 5px; 
-  color: #333; 
+  color: #333; /* Text color inside the boxes */
   text-align: left;
 }
 
@@ -238,9 +238,9 @@ max-width: 90%;
 
 .circular-image {
   width: 200px;
-  height: 200px; 
+  height: 200px; /* Equal width and height for a circle */
   border-radius: 50%;
-  object-fit: cover; 
+  object-fit: cover; /* Make image fill the circle */
 }
 
 
@@ -268,12 +268,12 @@ footer {
 }
 
 .ftr li {
-  margin-bottom: 10px; 
+  margin-bottom: 10px; /* Add space between links */
 }
 
 .ftr a {
   text-decoration: none;
-  color: inherit; 
+  color: inherit; /* Inherit color from parent */
   font-size: 0.9em;
 }
 
@@ -281,7 +281,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px; 
+  gap: 10px; /* Add space between copyright text and logo */
 }
 
 .copyright img {
@@ -311,11 +311,11 @@ footer {
 
 
 #qualifications {
-  background-color: #bdbdbd; 
+  background-color: #bdbdbd; /* Light grey background */
   padding: 20px;
   margin-bottom: 0px;
   border-radius: 5px; 
-  color: #333; 
+  color: #333; /* Text color inside the boxes */
   text-align: center;
 }
 
