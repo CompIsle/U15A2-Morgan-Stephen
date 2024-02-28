@@ -23,7 +23,7 @@
   - [Testing the website](#testing-the-website)
     - [Test Plan](#test-plan)
       - [Functionality](#functionality)
-      - [Compatability](#compatibility)
+      - [Compatibility](#compatibility)
       - [Usability](#usability)
     - [Load Speeds](#load-speeds)
     - [Unit Testing](#unit-testing)
